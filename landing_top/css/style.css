@@ -160,3 +160,11 @@ h3 {
     padding: 20px;
     margin: 20px;
 }
+
+.container_pict {
+   
+    width: 26%;
+    max-width: 40%;
+    max-height: 80%;
+    height: auto;
+}
