@@ -73,10 +73,12 @@ h2 {
   filter: none;
   filter: none; /* IE 6-9 */
 }
-
+.logo {
+    z-index: 10;
+}
 #bg {
     position: relative;
-    z-index: -1;
+    z-index: 1;
     top: 0;
     left: 0;
     min-width: 100%;
@@ -130,13 +132,19 @@ ol {
 .header_nav-list li {
     padding-left: 25px;
 }
-
+.scroll-arrow {
+    z-index: 10;
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+}
 .hero {
     margin-top: -69px;
     height: 100vh;
     background-repeat: no-repeat;
     background-position: 50% bottom;
-    block-size: cover;
     display: flex;
     align-items: center;
 }
@@ -225,16 +233,6 @@ p {
     text-align: center; 
     margin-top: 15%;
 }
-.services  .images_content img {
-    opacity: 0.5;
-    padding: 8px; 
-    margin-left:64px;
-    display: inline-block;
-    justify-content: space-between;
-}
-.services  .images_content img:hover {
-    opacity: 1;
-}
 
 .services_funtions {
         font-size: 14px;
@@ -243,4 +241,13 @@ p {
         text-transform: uppercase;
         display: flex;
         justify-content: space-between;
+}
+.services_funtions p {
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 60px;
+    opacity: 0.5;
+}
+.services_funtions p:hover {
+    opacity: 1;
 }
