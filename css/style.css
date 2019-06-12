@@ -172,7 +172,6 @@ ol {
     top: 200%;
 }
 
-
 h3 {
     color: #777;
     font-family: 'Dosis', sans-serif;
@@ -210,6 +209,7 @@ p {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
+
 .undertext_block p {
     font-size: 14px;
     font-family: 'Dosis'; 
@@ -220,6 +220,7 @@ p {
 .undertext_block p.name {
     font-size: 16px;
 }
+
 .services {
     text-align: center; 
     margin-top: 15%;
@@ -228,7 +229,18 @@ p {
     opacity: 0.5;
     padding: 8px; 
     margin-left:64px;
+    display: inline-block;
+    justify-content: space-between;
 }
 .services  .images_content img:hover {
     opacity: 1;
+}
+
+.services_funtions {
+        font-size: 14px;
+        font-family: 'Dosis'; 
+        letter-spacing: .5em; 
+        text-transform: uppercase;
+        display: flex;
+        justify-content: space-between;
 }
