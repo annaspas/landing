@@ -193,4 +193,18 @@ p {
     margin: 0;
 }
 
+.undertext_block {
+    float: left;
+    width: 26%;
+    max-width: 1200px;
+    padding: 20px;
+    margin: 20px;
+    color: #777;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
 
+
+
+
+font-size: 16px;font-family: 'Dosis'; letter-spacing: .5em; text-transform: uppercase; text-align: center;
