@@ -46,7 +46,7 @@ h2 {
     text-transform: uppercase;
 }
 
-img {
+.images_content img {
   display: inline-block;
   padding: 4px;
   margin-right: 10px;
@@ -65,7 +65,7 @@ img {
   -ms-transition: all .1s;
 }
 
-img:hover {
+.images_content img:hover {
   -webkit-filter: none;
   -moz-filter: none;
   -ms-filter: none;
@@ -124,6 +124,7 @@ ol {
     font-family: 'Open Sans', sans-serif;
     font-size: 11px;
     letter-spacing: 4px;
+    z-index: 400;
 }
 
 .header_nav-list li {
@@ -166,6 +167,12 @@ ol {
     top: 100%;
 }
 
+.section-services {
+    position: absolute;
+    top: 200%;
+}
+
+
 h3 {
     color: #777;
     font-family: 'Dosis', sans-serif;
@@ -203,15 +210,25 @@ p {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
-
-.images.content {
-    display: inline-block;
-    padding: 4px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    }
-
-.section-services {
-    position: absolute;
-    top: 100%;
+.undertext_block p {
+    font-size: 14px;
+    font-family: 'Dosis'; 
+    letter-spacing: .5em; 
+    text-transform: uppercase; 
+    text-align: center;
+}
+.undertext_block p.name {
+    font-size: 16px;
+}
+.services {
+    text-align: center; 
+    margin-top: 15%;
+}
+.services  .images_content img {
+    opacity: 0.5;
+    padding: 8px; 
+    margin-left:64px;
+}
+.services  .images_content img:hover {
+    opacity: 1;
 }
