@@ -1,9 +1,6 @@
 $(document).ready(function() {
     $('.js_tabs-link').on('click', function() {
         var tabNum = $(this).attr('href')
-
-        console.log(tabNum)
-
         $(this).addClass('tab-active')
         $(this)
             .parent()
