@@ -166,12 +166,12 @@ ol {
 }
 
 .section-hero {
-    position: relative;
+    position: absolute;
     top: 0%;
 }
 
 .section-about-studio {
-    position: relative;
+    position: absolute;
     top: 100%;
 }
 
@@ -230,6 +230,10 @@ ol {
     letter-spacing: .04em;
     text-transform: uppercase;
     opacity: 0.5;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 15px;
+    padding-top: 55px
 }
 
 .tabs_link.tab-active {
@@ -245,6 +249,8 @@ ol {
     background-color: #000;
     color: #fff;
     padding: 0;
+    position: absolute;
+    top: 300%;
 }
 
 .exclusive_container {
