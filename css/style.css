@@ -166,14 +166,150 @@ ol {
 }
 
 .section-hero {
-    position: absolute;
+    position: relative;
     top: 0%;
 }
 
 .section-about-studio {
-    position: absolute;
+    position: relative;
     top: 100%;
 }
+
+.row {
+    margin: 0 -15px;
+    display: flex;
+}
+
+[class^="col"] {
+    padding: 0 15px;
+}
+
+.col--1-3 {
+    width: calc(100% / 3);
+}
+
+.col--1-2 {
+    width: 50%;
+}
+
+.section {
+    padding: 135px 0;
+}
+
+.section_title {
+    margin-bottom: 70px;
+}
+
+.section_title--alt {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.tabs_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.tabs_list-item {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    padding: 0 5px;
+}
+
+.tabs_link {
+    transition: opacity .3s ease;
+    font: 14px 'Dosis', Arial, Helvetica, sans-serif;
+    color: #000;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+
+.tabs_link.tab-active {
+    opacity: 1;
+}
+
+.tabs_content-item:not(.tab-active) {
+    display: none;
+}
+
+.exclusive {
+    min-height: 445px;
+    background-color: #000;
+    color: #fff;
+    padding: 0;
+}
+
+.exclusive_container {
+    position: relative;
+    padding-top: 135px;
+    padding-bottom: 135px;
+}
+
+.exclusive_row {
+    align-items: center;
+}
+
+.exclusive p {
+    margin: 0;
+}
+
+.exclusive p:last-of-type {
+    margin-bottom: 30px;
+}
+
+.exclusive_img {
+    position: absolute;
+    top: -30px;
+    right: 15px;
+}
+
+.btn_base {
+    transition: background-color .3s ease;
+    color: #000;
+    min-height: 40px;
+    min-width: 170px;
+    padding: 2px 5px;
+    background-color: #cfcfcf;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+}
+
+.btn_base:hover {
+    background-color: #777;
+}
+
+@media (max-width: 1179px) {
+    
+    .exclusive_img {
+        max-width: calc(50% - 60px);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .section-services {
     position: absolute;
@@ -235,18 +371,14 @@ p {
 }
 
 .services_funtions {
-        font-size: 14px;
-        font-family: 'Dosis'; 
-        letter-spacing: .5em; 
-        text-transform: uppercase;
         display: flex;
         justify-content: space-between;
 }
 .services_funtions p {
     background-repeat: no-repeat;
     background-position: top;
-    padding-top: 60px;
-    opacity: 0.5;
+    padding-top: 10px;
+
 }
 .services_funtions p:hover {
     opacity: 1;
