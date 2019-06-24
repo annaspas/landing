@@ -1,3 +1,9 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
 .body {
     font: 300 15px, 'Open Sans', Arial, Helvetica, sans-serif;
     line-height: 1.7;
@@ -49,8 +55,8 @@ h2 {
 .images_content img {
   display: inline-block;
   padding: 4px;
-  margin-right: 10px;
-  margin-bottom: 10px;
+  margin-right: 9px;
+  margin-bottom: 8px;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
