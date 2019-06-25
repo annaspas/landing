@@ -19,6 +19,14 @@ $(document).ready(function() {
 });
 
 $('.testimonials_slider').slick({
-    
-});
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+        arrows: true,
+        appendArrows: $('.testimonials_nav'),
+        prevArrow: '<button class="testimonials_arrows testimonials_prev"><i class="icon-angle-down"></i></button>',
+        nextArrow: '<button class="testimonials_arrows testimonials_next"><i class="icon-angle-down"></i></button>',
+      });
+
 

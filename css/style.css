@@ -80,6 +80,7 @@
   }
   .icon-quote:before {
     content: "\e912";
+    color: #fff;
   }
   .icon-strategy:before {
     content: "\e913";
@@ -318,6 +319,28 @@ ol {
 .section_title--alt {
     margin-bottom: 20px;
     color: #fff;
+}
+
+.section_title--iconed {
+    position: relative;
+    padding-top: 54px;
+    margin-bottom: 30px;
+    line-height: 1;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+& :before {
+    content: '\e912';
+    font-family: "icomoon";
+    color: #fff;
+    font-size: 34px;
 }
 
 .text-center {
@@ -561,4 +584,57 @@ p {
 .section-testimonials {
     position: absolute;
     top: 650%;
+    background-color: #000;
+    padding: 130px 0 130px;
 }
+
+.slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto 0;
+}
+
+.slick-dots li.slick-active button {
+    background-color: transparent;
+}
+
+.slick-dots button {
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 10px;
+    height: 10%;margin: 0 3px;
+    font-style: 0;
+    text-indent: -999px;
+    overflow: hidden;
+
+}
+
+.testimonial {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    min-height: 190px;
+}
+.testimonial_text {
+    color: rgba(255, 255, 255, .75);
+    font-size: 20px;
+    font-family: 'Dosis', Arial, Helvetica, sans-serif;
+}
+
+.testimonial_author {
+    color: rgba(255,255,255,.3)
+    display: block;
+    font-style: 11px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    line-height: 1;
+    margin-top: 20px;
+}
+
