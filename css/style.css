@@ -555,3 +555,10 @@ p {
     column-rule-color: #777;
     text-align: left;
 }
+
+/* testimonials styles */
+
+.section-testimonials {
+    position: absolute;
+    top: 650%;
+}
