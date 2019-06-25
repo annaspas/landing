@@ -600,6 +600,7 @@ p {
 }
 
 .slick-dots button {
+    transition: background-color .3s ease;
     background-color: #fff;
     border: 1px solid #fff;
     border-radius: 50%;
@@ -607,12 +608,87 @@ p {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+    padding: 0;
+    outline: none;
     width: 10px;
-    height: 10%;margin: 0 3px;
+    height: 10%;
+    margin: 0 3px;
     font-style: 0;
     text-indent: -999px;
     overflow: hidden;
+    -webkit-transition: background-color .3s ease;
+    -moz-transition: background-color .3s ease;
+    -ms-transition: background-color .3s ease;
+    -o-transition: background-color .3s ease;
+}
 
+.tesimonials_arrow {
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    padding: 0;
+    margin: 0;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transition:opacity .3s ease;
+    background: none;
+    border: none;
+    outline: none;
+    -webkit-transition:opacity .3s ease;
+    -moz-transition:opacity .3s ease;
+    -ms-transition:opacity .3s ease;
+    -o-transition:opacity .3s ease;
+    cursor: pointer;
+}
+
+.testimonials_arrow i {
+    transform: translateY(-50%) rotate(-90deg);
+    -webkit-transform: translateY(-50%) rotate(-90deg);
+    -moz-transform: translateY(-50%) rotate(-90deg);
+    -ms-transform: translateY(-50%) rotate(-90deg);
+    -o-transform: translateY(-50%) rotate(-90deg);
+    transform-origin: center center;
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    columns: #000;
+    font-style: 16px;
+}
+
+.tesimonials_arrow: hover {
+    opacity: 0.7;
+}
+
+.tesimonials_arrow:before {
+    content: '';
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    transform-origin: center center;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    display: block;
+}
+
+.testimonials_arrow.testimonials_next {
+    left: auto;
+    right: -30px;
+}
+
+.testimonials_arrow.testimonials_next i {
+    left: auto;
+    right: 40px;
+    transform: translateY(-50%) rotate(-90deg);
+    -webkit-transform: translateY(-50%) rotate(-90deg);
+    -moz-transform: translateY(-50%) rotate(-90deg);
+    -ms-transform: translateY(-50%) rotate(-90deg);
+    -o-transform: translateY(-50%) rotate(-90deg);
 }
 
 .testimonial {
