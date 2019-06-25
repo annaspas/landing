@@ -16,4 +16,9 @@ $(document).ready(function() {
             .siblings()
             .removeClass('.tab-active')
     })
-})
+});
+
+$('.testimonials_slider').slick({
+    
+});
+
