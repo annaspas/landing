@@ -336,7 +336,7 @@ ol {
     -o-transform: translateX(-50%);
 }
 
-& :before {
+&:before {
     content: '\e912';
     font-family: "icomoon";
     color: #fff;
@@ -658,7 +658,7 @@ p {
     font-style: 16px;
 }
 
-.tesimonials_arrow: hover {
+.tesimonials_arrow:hover {
     opacity: 0.7;
 }
 
@@ -704,13 +704,61 @@ p {
 }
 
 .testimonial_author {
-    color: rgba(255,255,255,.3)
-    display: block;
-    font-style: 11px;
+    color: rgba(255,255,255,.3);
+    font-size: 11px;
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 0.2em;
     line-height: 1;
     margin-top: 20px;
+    display: block;
+}
+
+/* news styles */
+
+.section-news {
+    position: absolute;
+    top: 750%;
+    padding: 130px 0 130px;
+}
+
+.article_text {
+  left: 216px;
+  top: 6496px;
+  width: 214px;
+  height: 11px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.article_author {
+    font-size: 14px;
+    font-family: "Dosis";
+    color: rgb(153, 153, 153);
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 46px;
+    text-align: center;
+}
+
+.article_text_content {
+    font-size: 15px;
+    font-family: "Open Sans";
+    color: rgb(119, 119, 119);
+    line-height: 1.733;
+    text-align: left;
+}
+
+#more {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
 }
 
