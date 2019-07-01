@@ -788,11 +788,16 @@ p {
 }
 
 .contact_link {
-    font-size: 13px;
-    color:#9b9b9b;
-    font: 12 "Dosis", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #000;;
     letter-spacing: .3em;
     text-transform: uppercase;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.contact_link:hover {
+    text-decoration: underline;
 }
 
 .contact_block {
