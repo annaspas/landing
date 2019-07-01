@@ -29,6 +29,3 @@ $('.testimonials_slider').slick({
         nextArrow: '<button class="testimonials_arrows testimonials_next"><i class="icon-angle-down"></i></button>',
       });
 
-
-
-
