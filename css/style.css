@@ -209,8 +209,8 @@ ol {
 .container {
     width: 100%;
     max-width: 1200px;
-    padding-top: 135px;
-    padding-bottom: 135px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .header {
