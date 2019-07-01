@@ -209,8 +209,8 @@ ol {
 .container {
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
+    padding-top: 135px;
+    padding-bottom: 135px;
 }
 
 .header {
@@ -442,6 +442,7 @@ h3 {
     font-size: 26px;
     letter-spacing: .7em;
     text-transform: uppercase;
+
 }
 
 .text_block {
