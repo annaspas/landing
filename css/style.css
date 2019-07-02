@@ -815,9 +815,20 @@ p {
     line-height: 1;
 }
 
+.contact_form {
+    padding-top: 70px;
+}
+
+input {
+    border: none;
+    box-shadow: none;
+}
+
 .form_input {
+    transition: border-color .3s ease;
     background-color: #fff;
-    border: 1px solid #444;
+    border: 1px solid #e5e5e5;
+    color: #444;
     height: 36px;
     padding: 6px 14px;
     line-height: 24px;
@@ -825,6 +836,31 @@ p {
     text-transform: uppercase;
     font: 12px 'Dosis', Arial, Helvetica, sans-serif;
     letter-spacing: .2em;
+    display: block;
+    box-shadow: none;
+    margin-bottom: 10px;
+}
+
+.form_input--area {
+    height: 82px;
+    resize: none;
+
+}
+
+.form_input:focus {
+    border-color:rgb(96,96,230);
+    border-radius: 3px;
+
+.form_input::placeholder,
+.form_input::-webkit-input-placeholder,
+.form_input::-moz-placeholder {
+    color: #777;
+}
+
+.form_btn {
+    background-color: #000;
+    color: #fff;
+
 }
 
 
