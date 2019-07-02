@@ -789,6 +789,7 @@ p {
 
 .contact_link {
     font-size: 15px;
+    font-style: normal;
     color: #000;;
     letter-spacing: .3em;
     text-transform: uppercase;
@@ -798,7 +799,7 @@ p {
 
 .contact_link:hover {
     text-decoration: underline;
-}
+} 
 
 .contact_block {
     display: flex;
@@ -810,6 +811,22 @@ p {
     font: 12 "Dosis", Arial, Helvetica, sans-serif;
     letter-spacing: .3em;
     text-transform: uppercase;
+    margin: 0;
+    line-height: 1;
 }
+
+.form_input {
+    background-color: #fff;
+    border: 1px solid #444;
+    height: 36px;
+    padding: 6px 14px;
+    line-height: 24px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font: 12px 'Dosis', Arial, Helvetica, sans-serif;
+    letter-spacing: .2em;
+}
+
+
    
 
