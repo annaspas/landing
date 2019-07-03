@@ -953,11 +953,14 @@ input {
     
 }
 
+.footer_link-icon {
+    
+}
+
 .form_footer {
     padding: 20px 0;
     display: flex;
     justify-content: space-between;
-}
 
 @media (max-width: 1023px) {
 
