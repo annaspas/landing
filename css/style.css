@@ -277,6 +277,11 @@ ol {
 
 .section-about-studio {
     margin-top: 135px;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    top: 0;
+    flex-wrap: wrap;
 }
 
 .row {
@@ -324,11 +329,12 @@ ol {
 }
 
 &:before {
-    content: "\e912";
+    content: '';
     font-family: "icomoon";
     color: #fff;
     font-size: 34px;
     position: relative;
+    z-index: 2;
 }
 
 .text-center {
@@ -430,6 +436,10 @@ ol {
 
 .section-services {
     margin-top: 135px;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    top: 0;
 }
 
 h3 {
@@ -518,6 +528,10 @@ p {
     width: 100%;
     color: #777;
     text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    top: 0;
     
 }
 
@@ -530,6 +544,18 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+/* creative works */
+
+.creative-works {
+    margin-bottom: 20px;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    top: 0;
 }
 
 /* benefits styles */
@@ -770,6 +796,7 @@ p {
 }
 
 .contact_icon span {
+    content: "\e947";
     position: absolute;
     font-size: 12px;
     line-height: 1;
@@ -907,12 +934,56 @@ input {
     background-color: #555;
 }
 
-
 .form_footer {
     padding: 20px 0;
     display: flex;
     justify-content: space-between;
 }
+
+@media (max-width: 1023px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 24px;
+        letter-spacing: 0.3em;
+    }
+}
+
+@media (max-width: 639px) {
+    .col--tab-1-1 {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .tabs_list {
+        display: block;
+    }
+
+    .tabs_list-item {
+        padding: 0;
+        margin-bottom: 2px;
+        width: 100%;
+    }
+
+    .tabs_link {
+        background-color: #e7e7e7;
+        display: block;
+        padding: 4px 12px;
+        width: 100%;
+
+    }
+
+    .tabs_links.tab-active {
+        background-color: #000;
+        color: #fff;
+    }
+}
+
+
+
 
 
 
