@@ -815,6 +815,31 @@ p {
     padding-top: 70px;
 }
 
+.contact_map-holder {
+    position: relative;
+    margin-top: 140px;
+}
+
+.contact_map {
+    width: 100%;
+    min-height: 410px;
+}
+
+.contact_map-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0,0,0,0.87);
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
 input {
     border: none;
     box-shadow: none;
@@ -888,6 +913,7 @@ input {
     display: flex;
     justify-content: space-between;
 }
+
 
 
 
